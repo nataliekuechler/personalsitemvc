@@ -348,3 +348,29 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Sensitive Info
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+
+  //Adding a credentials section below to store sensitive info for sending emails
+  "Credentials": {
+    "Email": {
+      //Replace yourdomain.com with your actual domain & extension
+      "Client": "mail.natalielk.com",
+      //Replace mail@yourdomain.com with the email user you created in your hosting account
+      "User": "no-reply@natalielk.com",
+      //Replace P@ssw0rd with the password for the email user you created in your hosting account
+      "Password": "Speaker1!",
+      //Replace mail@provider.com with the email address you want to receive contact form messages
+      "Recipient": "nataliekuechler@outlook.com"
+    }
+  },
+
+  "AllowedHosts": "*"
+}
