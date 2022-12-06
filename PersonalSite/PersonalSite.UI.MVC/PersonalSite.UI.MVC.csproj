@@ -8,11 +8,99 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\style.min.css" />
+    <Content Remove="wwwroot\icons\animat-checkmark.gif" />
+    <Content Remove="wwwroot\icons\animat-customize.gif" />
+    <Content Remove="wwwroot\icons\animat-responsive.gif" />
+    <Content Remove="wwwroot\img\badgesplaceholder.jpg" />
+    <Content Remove="wwwroot\img\bluenebula.jpg" />
+    <Content Remove="wwwroot\img\Brice.jpg" />
+    <Content Remove="wwwroot\img\Colson.jpg" />
+    <Content Remove="wwwroot\img\comingsoon .jpg" />
+    <Content Remove="wwwroot\img\devplaceholder.jpg" />
+    <Content Remove="wwwroot\img\DungeonApp.jpg" />
+    <Content Remove="wwwroot\img\Evan.jpg" />
+    <Content Remove="wwwroot\img\favicon-32x32.png" />
+    <Content Remove="wwwroot\img\JD.jfif" />
+    <Content Remove="wwwroot\img\navbackground.jpg" />
+    <Content Remove="wwwroot\img\nightskytrees.jpg" />
+    <Content Remove="wwwroot\img\panorama.jpg" />
+    <Content Remove="wwwroot\img\Profile Picture.jpg" />
+    <Content Remove="wwwroot\img\purplemilkyway.jpg" />
+    <Content Remove="wwwroot\img\purplenightsky.jpg" />
+    <Content Remove="wwwroot\img\Sean.jpg" />
+    <Content Remove="wwwroot\img\startrails.jpg" />
+    <Content Remove="wwwroot\img\startrailsperson.jpg" />
+    <Content Remove="wwwroot\img\Storefront Schema Screenshot.png" />
+    <Content Remove="wwwroot\img\Storefront.jpg" />
+    <Content Remove="wwwroot\img\watchthisspace.jpg" />
+    <Content Remove="wwwroot\js\app.min.js" />
+    <Content Remove="wwwroot\vendor\bootstrap\bootstrap.min.css" />
+    <Content Remove="wwwroot\vendor\bootstrap\bootstrap.min.js" />
+    <Content Remove="wwwroot\vendor\bootstrap\popper.min.js" />
+    <Content Remove="wwwroot\vendor\countTo\jquery.countTo.js" />
+    <Content Remove="wwwroot\vendor\isotope\isotope.min.js" />
+    <Content Remove="wwwroot\vendor\jQueryValidation\jquery.validate.min.js" />
+    <Content Remove="wwwroot\vendor\lightcase\lightcase.css" />
+    <Content Remove="wwwroot\vendor\lightcase\lightcase.js" />
+    <Content Remove="wwwroot\vendor\owlcarousel\owl.carousel.min.css" />
+    <Content Remove="wwwroot\vendor\owlcarousel\owl.carousel.min.js" />
+    <Content Remove="wwwroot\vendor\select2\select2.min.css" />
+    <Content Remove="wwwroot\vendor\select2\select2.min.js" />
+    <Content Remove="wwwroot\vendor\waypoints\waypoint.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\style.min.css" />
+    <None Include="wwwroot\icons\animat-checkmark.gif" />
+    <None Include="wwwroot\icons\animat-customize.gif" />
+    <None Include="wwwroot\icons\animat-responsive.gif" />
+    <None Include="wwwroot\img\badgesplaceholder.jpg" />
+    <None Include="wwwroot\img\bluenebula.jpg" />
+    <None Include="wwwroot\img\Brice.jpg" />
+    <None Include="wwwroot\img\Colson.jpg" />
+    <None Include="wwwroot\img\comingsoon .jpg" />
+    <None Include="wwwroot\img\devplaceholder.jpg" />
+    <None Include="wwwroot\img\DungeonApp.jpg" />
+    <None Include="wwwroot\img\Evan.jpg" />
+    <None Include="wwwroot\img\favicon-32x32.png" />
+    <None Include="wwwroot\img\JD.jfif" />
+    <None Include="wwwroot\img\navbackground.jpg" />
+    <None Include="wwwroot\img\nightskytrees.jpg" />
+    <None Include="wwwroot\img\panorama.jpg" />
+    <None Include="wwwroot\img\Profile Picture.jpg" />
+    <None Include="wwwroot\img\purplemilkyway.jpg" />
+    <None Include="wwwroot\img\purplenightsky.jpg" />
+    <None Include="wwwroot\img\Sean.jpg" />
+    <None Include="wwwroot\img\startrails.jpg" />
+    <None Include="wwwroot\img\startrailsperson.jpg" />
+    <None Include="wwwroot\img\Storefront Schema Screenshot.png" />
+    <None Include="wwwroot\img\Storefront.jpg" />
+    <None Include="wwwroot\img\watchthisspace.jpg" />
+    <None Include="wwwroot\js\app.min.js" />
+    <None Include="wwwroot\vendor\bootstrap\bootstrap.min.css" />
+    <None Include="wwwroot\vendor\bootstrap\bootstrap.min.js" />
+    <None Include="wwwroot\vendor\bootstrap\popper.min.js" />
+    <None Include="wwwroot\vendor\countTo\jquery.countTo.js" />
+    <None Include="wwwroot\vendor\isotope\isotope.min.js" />
+    <None Include="wwwroot\vendor\jQueryValidation\jquery.validate.min.js" />
+    <None Include="wwwroot\vendor\lightcase\lightcase.css" />
+    <None Include="wwwroot\vendor\lightcase\lightcase.js" />
+    <None Include="wwwroot\vendor\owlcarousel\owl.carousel.min.css" />
+    <None Include="wwwroot\vendor\owlcarousel\owl.carousel.min.js" />
+    <None Include="wwwroot\vendor\select2\select2.min.css" />
+    <None Include="wwwroot\vendor\select2\select2.min.js" />
+    <None Include="wwwroot\vendor\waypoints\waypoint.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
   </ItemGroup>
 
 </Project>
